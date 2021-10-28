@@ -46,8 +46,6 @@ npm install
 npm run start
 ```
 
-## Desarrollo
-
 * Ejecutar el emulador y usar http://localhost:3978/api/messages como endpoint.
 
 ## Equipo
