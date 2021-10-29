@@ -5,6 +5,6 @@ RUN npm install
 COPY src /app/src
 COPY tsconfig.json /app/tsconfig.json
 RUN npm run build
-EXPOSE 3000
+EXPOSE 3978
 CMD ["npm", "run", "start"]
 
