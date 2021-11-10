@@ -46,6 +46,19 @@ npm install
 npm run start
 ```
 
+## Docker
+
+```
+docker build \
+  --tag nodejs-chatbot-test \
+  --build-arg MICROSOFT_APP_ID="7822da48-1cd3" \
+  --build-arg MICROSOFT_APP_PASSWORD="tv}4cYiEgp" .
+```
+
+```
+docker run -d --name nodejs-chatbot-test -p 3978:3978 nodejs-chatbot-test
+```
+
 * Ejecutar el emulador y usar http://localhost:3978/api/messages como endpoint.
 
 ## Equipo
