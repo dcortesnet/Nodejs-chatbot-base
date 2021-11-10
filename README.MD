@@ -46,6 +46,8 @@ npm install
 npm run start
 ```
 
+* Ejecutar el emulador y usar http://localhost:3978/api/messages como endpoint.
+
 ## Docker
 
 ```
@@ -58,8 +60,6 @@ docker build \
 ```
 docker run -d --name nodejs-chatbot-test -p 3978:3978 nodejs-chatbot-test
 ```
-
-* Ejecutar el emulador y usar http://localhost:3978/api/messages como endpoint.
 
 ## Equipo
 
