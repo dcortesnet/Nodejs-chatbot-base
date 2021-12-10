@@ -12,7 +12,7 @@ Descripción del proyecto: Bot básico de prueba y conceptos para la creación b
 
 * https://dev.botframework.com/
 
-## Prerequisitos
+## Prerrequisitos
 
 * Instalación de Nodjes
   * https://nodejs.org/es/
